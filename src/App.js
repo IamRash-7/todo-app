@@ -32,7 +32,11 @@ function App() {
   
   return (
     <div className="App">
-      <h1 className='header'>Todo-App</h1>
+      
+      <div className='header'>
+      <img src="./homework.png" alt="Logo" width="100" height="100"/>
+        <h1>Todo-App</h1>
+      </div>
       <Form formval={formval} setFormval={setFormval} todo={todo} setTodo={setTodo} setStatus={setStatus} />
       <Todolist todo={todo} setTodo={setTodo} filter={filter}/>
     </div>
